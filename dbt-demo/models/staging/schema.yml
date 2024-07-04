@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: staging
+    database: river-direction-427504-h2
+    schema: ny_taxi_data
+
+    tables:
+      - name: green_tripdata
+      - name: yellow_tripdata
